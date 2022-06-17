@@ -463,7 +463,7 @@ jobs:
           name: openwrt-21.02-${{ env.DEVICE_TARGET }}-${{ env.DEVICE_SUBTARGET }}
           allowUpdates: true
           replacesArtifacts: true
-          tag: ${{ env.DEVICE_TARGET }}-${{ env.DEVICE_SUBTARGET }}
+          tag: ${{ env.DEVICE_TARGET }}-${{ env.DEVICE_SUBTARGET }}-21.02
           body: ${{ env.BUILD_DATE }}
           commit: ${{ env.CURRENT_BRANCH }}
           token: ${{ secrets.GITHUB_TOKEN }}
